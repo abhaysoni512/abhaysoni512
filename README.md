@@ -79,7 +79,6 @@ assert(latency_ns < 1000);              // or go back to the drawing board
 ![C++](https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-CE6737?style=flat-square&logo=rust&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -93,8 +92,6 @@ assert(latency_ns < 1000);              // or go back to the drawing board
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=abhaysoni512&theme=github-dark-blue&hide_border=true)
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=abhaysoni512&show_icons=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true&rank_icon=github" />
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhaysoni512&layout=compact&hide_border=true&theme=github_dark&langs_count=6&hide=jupyter%20notebook" />
 
 </div>
 
