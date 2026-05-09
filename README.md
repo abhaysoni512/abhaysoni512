@@ -80,8 +80,8 @@ auto latency_ns = to_ns(rdtsc() - t0);
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=abhaysoni512&show_icons=true&hide_border=true&theme=default&count_private=true)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abhaysoni512&layout=compact&hide_border=true&theme=default)
+_![Stats](https://github-readme-stats.vercel.app/api?username=abhaysoni512&show_icons=true&hide_border=true&theme=default&count_private=true)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abhaysoni512&layout=compact&hide_border=true&theme=default)___
 
 </div>
 
