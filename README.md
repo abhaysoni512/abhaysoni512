@@ -1,17 +1,16 @@
 <div align="center">
 
-```
-latency: [████████████████████] <1μs
-```
+![latency](https://img.shields.io/badge/latency-%3C1μs-success?style=flat-square)
 
 # Abhay Soni
-### Systems Engineer · Low-Latency C++ · HFT Infrastructure
+### Systems Engineer · HPC & Computational Systems · 2 Years | Performance-Critical Infrastructure
 
-*Building software where microseconds are money*
+*Building software where every nanosecond of compute matters*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/abhaysoni512)
-[![Twitter](https://img.shields.io/badge/X-000000?style=flat-square&logo=x)](https://x.com/abhaysoni512)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:abhaysoni512@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhaysoni512)
+[![Twitter](https://img.shields.io/badge/Twitter-000000?style=flat&logo=x&logoColor=white)](https://x.com/abhaysoni512)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/abhaysoni512/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:abhaysoni512@gmail.com)
 
 </div>
 
@@ -19,14 +18,14 @@ latency: [████████████████████] <1μs
 
 ## What I work on
 
-C/C++ systems engineer focused on the intersection of **low-latency software** and **quantitative finance**.  
-I work at the level of sockets, packets, kernel I/O — now optimizing for nanosecond-sensitive trading infrastructure.
+C/C++ systems engineer with 2 years of focused experience in **performance-critical infrastructure** and **systems optimization**. Building expertise in low-latency networking, distributed systems, and kernel-level optimization for compute-intensive workloads.
 
 ```cpp
-// My current obsession
+// My current obsession: compute efficiency
 auto t0 = rdtsc();
-order_book.insert(order);          // sub-microsecond target
-auto latency_ns = to_ns(rdtsc() - t0);
+computational_kernel<<<blocks, threads>>>();  // GPU kernels
+mpi_collective_operation();                    // Distributed memory
+auto latency_ns = to_ns(rdtsc() - t0);        // sub-microsecond targets
 ```
 
 ---
@@ -45,22 +44,27 @@ auto latency_ns = to_ns(rdtsc() - t0);
 
 ## ⚙️ Technical depth
 
-**Low-latency C++**
-- C++17/20 — move semantics, templates, concepts, constexpr
-- Lock-free data structures (SPSC/MPMC), `std::atomic` memory ordering
-- Custom allocators (pool, arena), cache-line-aligned layouts, SIMD basics
+**Parallel & Distributed Computing**
+- MPI (point-to-point, collectives), OpenMP task & loop parallelism, CUDA/HIP GPU kernels
+- Lock-free algorithms (SPSC/MPMC queues), `std::atomic` memory ordering, memory fence optimization
+- Domain decomposition, data layout optimization (AoS vs SoA), cache-line awareness
 
-**Linux performance**
-- `epoll` / `io_uring`, `perf` / `vtune` profiling, CPU affinity & isolation
-- Kernel bypass concepts (DPDK), hugepages, `rdtsc` cycle-accurate benchmarking
+**C++ Systems Programming**
+- C++17/20 — move semantics, variadic templates, concepts, constexpr metaprogramming
+- Custom allocators (pool, arena, aligned), RAII patterns, performance-critical code paths
+- Template specialization, SIMD intrinsics (AVX2/AVX-512), compiler-driven optimization
 
-**Networking**
-- TCP/UDP stacks, raw sockets, packet capture
-- Multicast (market data delivery), FIX / ITCH protocol parsing
+**Performance Engineering**
+- Profiling & benchmarking (`perf`, `likwid`, NVIDIA profilers, flame graphs)
+- Roofline analysis, bandwidth/latency characterization, micro-benchmarking
+- CPU affinity, NUMA awareness, kernel bypass techniques (io_uring), hugepages
+- `rdtsc` cycle-level timing, cache behavior analysis
 
-**Quant tooling**
-- Python (NumPy, pandas) for research, backtesting, and data analysis
-- Market microstructure: order book mechanics, bid-ask spread, market making
+**HPC Infrastructure**
+- Linux kernel tuning, process scheduling, interrupt affinity
+- Network optimization (TCP/UDP, multicast, RDMA concepts), zero-copy patterns
+- Build systems (CMake), continuous performance regression testing
+- Containerization & reproducible compute environments
 
 ---
 
@@ -68,9 +72,11 @@ auto latency_ns = to_ns(rdtsc() - t0);
 
 ![C++](https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cpp&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MPI](https://img.shields.io/badge/MPI-0051BA?style=flat-square&logo=data:image/svg%2bxml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20x=%2250%22%20y=%2270%22%20font-size=%2270%22%20text-anchor=%22middle%22%3EMPI%3C/text%3E%3C/svg%3E&logoColor=white)
+![OpenMP](https://img.shields.io/badge/OpenMP-0051BA?style=flat-square&logo=data:image/svg%2bxml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20x=%2250%22%20y=%2270%22%20font-size=%2260%22%20text-anchor=%22middle%22%3EOMP%3C/text%3E%3C/svg%3E&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
@@ -80,8 +86,9 @@ auto latency_ns = to_ns(rdtsc() - t0);
 
 <div align="center">
 
-_![Stats](https://github-readme-stats.vercel.app/api?username=abhaysoni512&show_icons=true&hide_border=true&theme=default&count_private=true)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abhaysoni512&layout=compact&hide_border=true&theme=default)___
+![Abhay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhaysoni512&show_icons=true&theme=github_dark)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhaysoni512&theme=github_dark)
 
 </div>
 
@@ -89,6 +96,6 @@ _![Stats](https://github-readme-stats.vercel.app/api?username=abhaysoni512&show_
 
 ## 📬 Open to
 
-HFT / prop trading / quant finance roles in India — SDE / Systems Engineer profiles where **latency is a first-class requirement**.
+HPC systems engineer roles in India — CSIR labs, IITs, cloud platforms, or performance-focused tech companies. Seeking mid-level SDE/Systems Engineer positions in computational systems, performance engineering, or scientific computing where **optimization and system-level thinking are valued**.
 
-> *"The bottleneck is always somewhere you haven't looked yet."*
+> *"Performance is a feature. Measure it. Optimize it. Own it."*
